@@ -19,8 +19,8 @@ const StatusBanner: React.FC<StatusBannerProps> = ({ status, direction }) => {
     <div className={`${styles.banner} ${isWin ? styles['banner--win'] : styles['banner--lose']}`}>
       <div className={styles.banner__icon}>
         {isWin
-          ? <CheckCircleOutlineIcon fontSize="small" />
-          : <ErrorOutlineIcon fontSize="small" />
+          ? <CheckCircleOutlineIcon sx={{ fontSize: 22 }} />
+          : <ErrorOutlineIcon sx={{ fontSize: 22 }} />
         }
       </div>
       <div className={styles.banner__content}>

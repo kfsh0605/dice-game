@@ -26,7 +26,6 @@ const HistoryTable: React.FC<HistoryTableProps> = ({ history }) => {
               Guess
             </TableCell>
             <TableCell
-              align="right"
               className={styles.historyTable__headerCell}
             >
               Result
@@ -43,7 +42,6 @@ const HistoryTable: React.FC<HistoryTableProps> = ({ history }) => {
                 {entry.direction === 'over' ? 'Over' : 'Under'} {entry.threshold}
               </TableCell>
               <TableCell
-                align="right"
                 className={`${styles.historyTable__cell} ${
                   entry.status === 'win'
                     ? styles['historyTable__cell--win']
