@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import { useDiceGame } from '@/hooks/useDiceGame';
 import StatusBanner from './components/StatusBanner/StatusBanner';

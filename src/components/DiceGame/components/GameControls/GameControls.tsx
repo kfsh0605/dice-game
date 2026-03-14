@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import Slider from '@mui/material/Slider';
 import Radio from '@mui/material/Radio';
