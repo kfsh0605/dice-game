@@ -12,10 +12,7 @@
 
   &__slider {
     width: 100%;
-    padding: 0 4px;
-
-    // Push the value label above the slider track
-    padding-top: 32px;
+    padding: 32px 4px 0;
   }
 
   &__sliderLabels {

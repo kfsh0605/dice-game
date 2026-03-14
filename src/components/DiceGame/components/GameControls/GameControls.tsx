@@ -77,6 +77,7 @@ const GameControls: React.FC<GameControlsProps> = ({
         variant="contained"
         fullWidth
         onClick={onPlay}
+        aria-label="Roll the dice"
         className={styles.controls__button}
         sx={{
           backgroundColor: '#9c27b0',

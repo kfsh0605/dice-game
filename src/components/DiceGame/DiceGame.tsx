@@ -2,10 +2,10 @@
 
 import React from 'react';
 import { useDiceGame } from '@/hooks/useDiceGame';
-import StatusBanner from './components/StatusBanner/StatusBanner';
-import ResultDisplay from './components/ResultDisplay/ResultDisplay';
-import GameControls from './components/GameControls/GameControls';
-import HistoryTable from './components/HistoryTable/HistoryTable';
+import StatusBanner from './components/StatusBanner';
+import ResultDisplay from './components/ResultDisplay';
+import GameControls from './components/GameControls';
+import HistoryTable from './components/HistoryTable';
 import styles from './DiceGame.module.scss';
 
 const DiceGame: React.FC = () => {
