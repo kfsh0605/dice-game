@@ -1,0 +1,33 @@
+.controls {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 8px;
+
+  &__radio {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  &__slider {
+    width: 100%;
+    padding: 0 4px;
+
+    // Push the value label above the slider track
+    padding-top: 32px;
+  }
+
+  &__sliderLabels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -4px;
+    font-size: 13px;
+    color: #757575;
+  }
+
+  &__button {
+    margin-top: 8px;
+    text-transform: uppercase;
+  }
+}
